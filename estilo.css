@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+*{
+    font-family: 'Shrikhand', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+label{
+    margin-right: 1%;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.bod{
+    background-image: url(SL-122019-26260-15.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.div1{
+    padding: 3%;
+    border-radius: 2%;
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+    color: yellow;
+}
+.verde{
+    color: green;
+}
+.azul{
+    color: blue;
+}
+.naranja{
+    color: orangered;
+}
+.negro{
+    color: black;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.hh2{
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.img1{
+    margin: auto;
+    max-width: 600px;
+}
+.oculto{
+    display: none;
+}
+@media (max-width: 800px) {
+    h1{
+        font-size: 25px;
+    }
+    label{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .img1{
+        max-width: 300px;
+    }
+    .hh2{
+        font-size: 120px;
+    }
+}
